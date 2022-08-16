@@ -1,45 +1,63 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 a {
     text-decoration: none;
 }
 
 /* CSS da head */
-#head {
-    border: 1px solid black;
-}
 #head_container {
     display: flex;
     justify-content: right;
     margin: 15px;
     height: 60px;
-    border: 1px solid black;
 }
 #head_1 {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-decoration: none;
+    margin-right: 15px;
 }
 #head_2 {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-decoration: none;
+    margin-right: 25px;
+}
+.head_commands {
+    color: black;
+    font-size: 14px;
 }
 #head_3 {
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    margin-right: 25px;
+}
+#head_4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-#head_4 {
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#login_button {
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
 }
 
 /* CSS do body */
@@ -47,10 +65,13 @@ a {
     border: 1px solid black;
     height: auto;
 }
-#body_1, img {
-    border: 1px solid black;
+#body_1 {
     display: flex;
     justify-content: center;
+    height: 92px;
+}
+#google_logo {
+    border: 1px solid #000000;
 }
 
 #body_2 {
@@ -62,4 +83,18 @@ a {
     justify-content: center;
     height: 45px;
     border: 1px solid red;
+}
+#lupa_icon {
+    width: 20px;
+    height: 20px;
+}
+#lupa_icon img {
+    width: 15px;
+    height: 15px;
+}
+#search_bar {
+    
+}
+#micro_icon {
+
 }
